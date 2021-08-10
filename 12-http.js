@@ -1,10 +1,10 @@
-const http = require("http");
+const http = require('http');
 
 const server = http.createServer((req, res) => {
-  if (req.url === "/") {
+  if (req.url === '/') {
     res.end(`Write to our home page`);
   }
-  if (req.url === "/about") {
+  if (req.url === '/about') {
     res.end(`Write to our About page`);
   }
 

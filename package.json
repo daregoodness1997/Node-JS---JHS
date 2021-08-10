@@ -1,11 +1,20 @@
 {
   "name": "node-tutorial",
   "version": "1.0.0",
-  "description": "",
   "main": "1-intro.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon app.js"
   },
   "author": "Dare Goodness",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daregoodness1997/Node-JS---JHS.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/daregoodness1997/Node-JS---JHS/issues"
+  },
+  "homepage": "https://github.com/daregoodness1997/Node-JS---JHS#readme",
+  "description": ""
 }
